@@ -1,10 +1,10 @@
 nav:
   Home: /
   About: /about/
-  Writing: /archives/
-  Projects: http://github.com/probberechts
+  Blog: /archives/
+  Projects: http://github.com/ivanmalagon
 
-projects_url: http://github.com/probberechts
+projects_url: http://github.com/ivanmalagon
 
 customize:
     gravatar:
@@ -27,10 +27,9 @@ customize:
         url: /images/apple-touch-icon.png
         gravator: false
     social_links:
-        github: http://github.com/probberechts/cactus-dark
-        twitter: /
-        facebook: /
-        linkedin: /
+        github: https://github.com/ivanmalagon
+        twitter: https://twitter.com/hacheka
+        instagram: https://instagram.com/hacheka
     post_count: 5
     highlight: rainbow
 
@@ -40,7 +39,7 @@ rss: false
 # Plugins
 plugins:
     disqus_shortname: # Disqus Comments Shortname
-    google_analytics: UA-86660611-1 # enter the tracking ID for your Google Analytics
+    google_analytics: UA-89878104-1 # enter the tracking ID for your Google Analytics
 
 # Miscellaneous
 miscellaneous:

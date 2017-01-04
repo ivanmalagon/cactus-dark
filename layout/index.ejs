@@ -4,7 +4,7 @@
   <% } %>
   <p style="display: inline">
     <% if (theme.customize.social_links) { %>
-      Find me on
+      Estoy en
       <ul id="sociallinks">
         <% for(var i in theme.customize.social_links) { %>
           <li><a class="icon" target="_blank" href="<%- url_for(theme.customize.social_links[i]) %>" title="<%= i %>"><i class="fa fa-<%= i %>"></i></a></li>
@@ -12,10 +12,11 @@
       </ul>
     <% } %>
   </p>
+  <p style="display: inline">Si tienes algo que decirme, puedes escribirme a hacheka<img class="emoji" alt=":octopus:" height="20" width="20" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f419.png">gmail.com</p>
 </section>
 
 <section id="writing">
-  <span class="h1"><a href="<%- url_for("archives") %>">Writing</a></span>
+  <span class="h1"><a href="<%- url_for("archives") %>">Blog</a></span>
   <ul class="post-list">
     <% site.posts.sort('date', 'desc').limit(theme.customize.post_count || 5).each(function(post, i){ %>
       <li class="post-item">
